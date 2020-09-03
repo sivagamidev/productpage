@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    background-color: limegreen;
+}
+
+.box2{
+    background-color: magenta;
+}
+.box3{
+    background-color: mediumseagreen;
+}
+@media screen and (max-width: 992px) {
+    .flex-container{
+        display: flex;
+        flex-direction:column;
+    }
+  }
